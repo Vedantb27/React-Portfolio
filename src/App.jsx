@@ -16,8 +16,7 @@ export const App = () => {
   <div className="absolute inset-0 bg-[radial-gradient(circle_500px_at_50%_200px,#3e3e3e,transparent)]" />
 </div>
       </div>
-      <div className="container mx-auto "  >
-
+      <div className="container mx-auto px-8"  >
       <Navbar/>
       <Hero/>
       <About/>

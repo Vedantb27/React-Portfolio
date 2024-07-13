@@ -10,8 +10,22 @@ const Navbar = () => {
         <img className="mx-2 w-7" src={logo} alt="logo" />
       </div>
       <div className="m-5 flex items-center justify-center gap-4 text-2xl">
-        <FaLinkedin className="hover:text-cyan-700" />
-        <FaGithub className="hover:text-white" />
+        <a
+          href="https://www.linkedin.com/in/vedant-bopanwar-8052ba2b1/" // Replace with your LinkedIn profile URL
+          target="_blank"
+          rel="noopener noreferrer"
+          className="hover:text-cyan-700"
+        >
+          <FaLinkedin />
+        </a>
+        <a
+          href="https://github.com/Vedantb27" // Replace with your GitHub profile URL
+          target="_blank"
+          rel="noopener noreferrer"
+          className="hover:text-white"
+        >
+          <FaGithub />
+        </a>
         <a
           href={resume}
           download="VedantBopanwar(BE-CE)Resume.pdf" // This specifies the name of the file to be downloaded
