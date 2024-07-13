@@ -49,13 +49,13 @@ export const PROJECTS = [
     livelink:"https://foodbloglive.vercel.app",
   },
   {
-    title: "Task Management App",
+    title: "Local Storage Notes Website",
     image: project2,
     description:
-      "An application for managing tasks and projects, with features such as task creation, assignment, and progress tracking.",
+      "A dynamic web-based tool for managing notes. Users can create, save, delete, and color-code notes with ease. Notes are stored in localStorage for persistence, and the interface is responsive and interactive, featuring Font Awesome icons. Technologies used include HTML5, CSS3, and JavaScript.",
     technologies: ["HTML", "CSS", "Angular", "Firebase"],
-    githublink:"",
-    livelink:"",
+    githublink:"https://github.com/Vedantb27/LocalStorageNotes",
+    livelink:"https://vedantb27.github.io/LocalStorageNotes/",
   },
   {
     title: "Portfolio Website",
