@@ -48,13 +48,13 @@ const Projects = () => {
                   </span>
                 ))}
               </div>
-              <div className="flex gap-4 flex-wrap justify-center">
+              <div className="flex gap-4">
                 {project.githublink && (
                   <a
                     href={project.githublink}
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 text-sm rounded sm:text-base"
+                    className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded"
                   >
                     Source Code
                   </a>
@@ -64,13 +64,12 @@ const Projects = () => {
                     href={project.livelink}
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="bg-green-500 hover:bg-green-700 text-white font-bold py-2 px-4 text-sm rounded sm:text-base"
+                    className="bg-green-500 hover:bg-green-700 text-white font-bold py-2 px-4 rounded"
                   >
                     Live Website
                   </a>
                 )}
               </div>
-
             </motion.div>
           </div>
         ))}
