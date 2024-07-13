@@ -45,8 +45,8 @@ export const PROJECTS = [
     description:
       "A fully functional Food Blog  website with features like Dishes Recepie listing, Serach Feature, and admin authentication for adding new recipies , deleting old recepies , updating recipie or creating diffrent categories. A fully functional Food Blog  website with features like Dishes Recepie listing, Serach Feature, and admin authentication for adding new recipies , deleting old recepies , updating recipie or creating diffrent categories. A fully functional Food Blog  website with features like Dishes Recepie listing, Serach Feature, and admin authentication for adding new recipies , deleting old recepies , updating recipie or creating diffrent categories.",
     technologies: ["HTML", "CSS","Tailwind CSS", "React", "Node.js","Express.js", "MongoDB"],
-    githublink:"",
-    livelink:"",
+    githublink:"https://github.com/Vedantb27/Foodblogfrontend",
+    livelink:"https://foodbloglive.vercel.app",
   },
   {
     title: "Task Management App",
