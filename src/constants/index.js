@@ -16,15 +16,7 @@ export const EXPERIENCES = [
     description: `Designed and developed user interfaces for web applications using React.js. Worked closely with backend developers to integrate frontend components with Node.js APIs. Implemented responsive designs and optimized frontend performance.`,
     technologies: ["Javascript", "React.js", "Express.js", "Node.js", "Tailwind", "mongoDB"],
   },
-  {
-    year: "2023 - 2024",
-    role: "Frontend Developer",
-    company: "Adobe",
-    description: `
-Frontend Developer - AnkHub Technology Services
-Designed and developed user interfaces for web applications using React.js. Worked closely with backend developers to integrate frontend components with Node.js APIs. Implemented responsive designs and optimized frontend performance..`,
-    technologies: ["Javascript", "React.js", "Express.js", "Node.js", "Tailwind", "mongoDB",],
-  },
+  
 
 ];
 
